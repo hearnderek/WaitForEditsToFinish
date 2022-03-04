@@ -1,9 +1,3 @@
-# WaitForEditsToFinish
-
-Wait until files in a directory are not changed within X seconds
-
-``` bat
-
 @echo off
 REM Configuration Variables
 set search_dir=.\TestDir
@@ -38,6 +32,3 @@ set last_edit_time=24:60:60
 REM Descriptive Output
 echo Last edit in %search_dir% occured at %last_edit_time%
 echo Script finished at %date% %time%
-
-
-```
